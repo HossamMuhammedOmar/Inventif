@@ -1,2 +1,2 @@
-# Inventif
+# Inventif Design
 Personal portfolio
