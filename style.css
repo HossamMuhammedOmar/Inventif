@@ -136,57 +136,12 @@ nav {
   cursor: default;
 }
 
-/* .heading-header::before {
-  content: "Make a creative design";
-  font-size: 4rem;
-  position: absolute;
-  top: 12rem;
-  padding: 0 1rem;
-  left: 0;
-  background-color: #ffcb3c;
-  visibility: hidden;
-  z-index: -40;
-
-  transform: translateY(-10rem);
-}
-.heading-header::after {
-  content: "Make a creative design";
-  font-size: 4rem;
-  position: absolute;
-  top: 18rem;
-  padding: 0 1rem;
-  left: 0;
-  background-color: #3b50b2;
-  visibility: hidden;
-  transform: translateY(-10rem);
-}
-
-.heading-header:hover::before {
-  visibility: visible;
-  transform: translate(0);
-  transition: all 1s;
-}
-.heading-header:hover::after {
-  visibility: visible;
-  transform: translate(0);
-  transition: all 1s 0.5s;
-} */
-
 .header-logo {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translateX(-50%);
 }
-
-/* .header-logo img {
-  width: 20rem;
-  transition: all 0.5s;
-}
-.header-logo img:hover {
-  transform: skewY(30deg);
-  filter: drop-shadow(1rem 1rem 1rem #666666);
-} */
 
 .header-logo i {
   font-size: 15rem;
@@ -195,3 +150,24 @@ nav {
 }
 
 /* End of Header */
+
+/*** SECTION ONE ***/
+.section-one {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-container img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.customer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*** END OF SECTION ONE ***/
